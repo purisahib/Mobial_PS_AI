@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#911111">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Start" />
+
+
+    <EditText
+        android:id="@+id/yourQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:background="@drawable/shape_rectangle"
+        android:hint="Type yout question.."
+        android:layout_below="@+id/start"/>
+
+    <Button
+        android:id="@+id/answerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yourQuestion"
+        android:background="@drawable/shape_rectangle"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Answer..." />
+
+    <TextView
+        android:id="@+id/yourAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answerButton"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_rectangle"
+        android:hint="Your Answer..." />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+</RelativeLayout>

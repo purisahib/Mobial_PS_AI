@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp"
+    app:cardBackgroundColor="#fff">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/profileIvv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_apk"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:background="#4323"/>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/moreBtnone"
+            android:layout_toLeftOf="@id/moreBtnone"
+            android:layout_toEndOf="@id/profileIvv"
+            android:layout_toRightOf="@id/profileIvv"
+            android:orientation="vertical"
+            tools:ignore="NotSibling">
+
+            <!--User name-->
+            <TextView
+                android:id="@+id/nameTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+            <!--User Package Name-->
+            <TextView
+                android:id="@+id/packageNameTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Package Name"
+                android:textColor="#000000" />
+            <!--User Path-->
+            <TextView
+                android:id="@+id/pathTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Path"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <!-- To option like button delete /edit/ etc.-->
+        <ImageButton
+            android:id="@+id/moreBtnTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@null"/>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

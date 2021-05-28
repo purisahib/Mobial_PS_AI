@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25FFD600"
+    android:orientation="vertical"
+
+    tools:context=".call.AddCalls">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Type Name for you say in three times like given Example in three section"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/nameOne"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:background="@drawable/shape_rectangle"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="One eg:-Arpit"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nameTwo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:background="@drawable/shape_rectangle"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Two eg:-Arpit kagal narayan"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nameThree"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:background="@drawable/shape_rectangle"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Three eg:-Arpit kagal "
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/numberBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints=""
+        android:background="@drawable/shape_rectangle"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="eg:- 9828000000"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/callDetailBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+        //android:background="@drawable/shape_rectangle"/>
+</LinearLayout>
